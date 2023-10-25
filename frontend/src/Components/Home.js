@@ -1,17 +1,20 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Home() {
     return (
         
-        
-        <div className='homeback'>
-            <section >
+            <div>
             
+            <div className='homeback'  >
+            <section >
             <h1>Welcome to BlogSpot</h1><br/>
-            <button type="button" class="btn btn-info">Register</button> 
+            <Link to='/Register'><button type="button" class="btn btn-info">Register</button> </Link>
             <span> / </span>
-            <button type="button" class="btn btn-info">Login</button>
+            <Link to='/Login'><button type="button" class="btn btn-info">Login</button></Link>
             </section>
+            </div>
+
 
         </div>
         
