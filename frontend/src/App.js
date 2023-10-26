@@ -4,7 +4,9 @@ import './App.css';
 import Home from './Components/Home';
 import Register from './Components/Register';
 import Login from './Components/Login';
+import UserLogin from './Components/UserLogin';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <Route path='/' element={<Home/>} />
       <Route path='/Register' element={<Register/>} />
       <Route path='/Login' element={<Login/>} />
+      <Route path='/UserLogin' element={<UserLogin/>} />
 
       </Routes>
 
