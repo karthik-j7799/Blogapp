@@ -38,15 +38,17 @@ function Login() {
 
   return (
     <div>
+        <header>
         <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
         <a class="navbar-brand" href="/">
-        
         BlogSpot
     </a>
   </div>
 </nav>
-        <section className="formlog">
+</header>
+        <div className="formlog">
+        <section >
       <form onSubmit={Submit}>
       <h1>Login</h1>
         <div className="mb-3">
@@ -85,6 +87,7 @@ function Login() {
         </button>
       </form>
       </section>
+      </div>
     </div>
   );
 }

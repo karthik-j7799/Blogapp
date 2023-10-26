@@ -36,6 +36,7 @@ function Register() {
 
   return (
     <div>
+      <header>
       <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="/">
@@ -43,8 +44,9 @@ function Register() {
           </a>
         </div>
       </nav>
-
-      <section className="formReg">
+      </header>
+      <div className="formReg">
+      <section >
       <form  className='registerform' onSubmit={Submit}> 
         <div class="container">
     <h1>Register</h1>
@@ -80,6 +82,7 @@ function Register() {
   </div>
 </form> 
       </section>
+      </div>
     </div>
   );
 }
