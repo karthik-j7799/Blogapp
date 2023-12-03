@@ -110,3 +110,110 @@ header{
   width: 100%;
   z-index: 9999;
 }
+
+.me-auto{
+  float: right;
+}
+
+footer{
+  position: fixed;
+  left: 20%;
+  bottom: 0;
+  width: 80%;
+  z-index: 9999;
+  align-items: center;
+}
+
+.Usertop{
+  padding-top: 6%;
+  padding-left: 5%;
+}
+.row{
+  position: absolute;
+  padding-left: 5%;
+}
+
+.post{
+  padding-top: 10%;
+  text-align: center;
+  justify-content: space-between;
+  
+}
+
+.posttop{
+  text-align: center;
+  justify-content: space-between;  
+}
+
+
+.blogabout{
+  padding-top: 10%;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top:30%;
+  margin: auto;
+  margin-left: 24%;
+  text-align: center;
+  border: solid 5px black;
+  border-radius: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.form-floating{
+  
+  width: 800px;
+}
+
+.postblog{
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+  width: 600px;
+  text-align: center;
+  position: absolute;
+  left:30%;
+  margin: auto;
+  margin-top: 10%;
+  border: solid 1px black;
+}
+
+.adminHomee{
+
+  text-align: center;
+  padding-top: 15%;
+}
+
+
+.formEdit{
+  background-image: linear-gradient(90deg, #3e32a8, #e310c7 );
+  height: 100vh;
+}
+
+.formEdit section{
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  word-spacing: 2px;
+  white-space: nowrap;
+  position: absolute;
+  top: 19%;
+  
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  
+  margin-left: 25%;
+  
+  border: solid 5px black;
+  border-radius: 2%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  
+  
+
+}

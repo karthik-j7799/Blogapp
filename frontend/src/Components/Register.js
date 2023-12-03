@@ -25,6 +25,8 @@ function Register() {
     axios.post(`http://localhost:3000/addUser`,values)
     .then((e)=>{
       if(e.status === 200){
+        alert("registered successfully")
+        console.log(values)
         Navigate('/Login');
       }
     })

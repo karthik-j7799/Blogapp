@@ -6,7 +6,11 @@ const userSchema = mongoose.Schema({
     email: String,
     password: String,
     phone: Number,
-    city: String
+    city: String,
+    // posts : {
+    //     type : mongoose.Schema.Types.ObjectId,
+    //     ref : "Posts"
+    // }
 })
 
 const usermodel = mongoose.model("Users",userSchema)

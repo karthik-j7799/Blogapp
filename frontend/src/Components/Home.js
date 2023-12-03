@@ -12,6 +12,8 @@ function Home() {
             <Link to='/Register'><button type="button" class="btn btn-info">Register</button> </Link>
             <span> / </span>
             <Link to='/Login'><button type="button" class="btn btn-info">Login</button></Link>
+            <span> / </span>
+            <Link to='/Admin'><button type="button" class="btn btn-info">Admin</button></Link>
             </section>
             </div>
 
